@@ -7,7 +7,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-
+        int MaxRand=50;
+        int MinRand=-50;
         int rows = getSize(scanner, "строчок");// отримуем кількість строчок
         int cols = getSize(scanner, "стовбців");// отримуєм кількість стовпців
 
@@ -17,7 +18,7 @@ public class Main {
         }
 
         int[][] matrix = new int[rows][cols];//Створюєм матрицю розміром Стр. * Стовп,
-        fillMatrix(scanner, random, matrix);//Заповнюєм матрицю
+        fillMatrix(scanner, random, matrix,MaxRand,MinRand);//Заповнюєм матрицю
         printMatrix(matrix);//Виводим матрицю
         printStats(matrix);//виводим розраховані Макс. Мін. та Сер. значеня
     }
@@ -27,14 +28,14 @@ public class Main {
         return scanner.nextInt();// функція отримуе та повертае значення від користувача
     }
 
-    private static void fillMatrix(Scanner scanner, Random random, int[][] matrix) {//Функція яка заповнює матрицю
+    private static void fillMatrix(Scanner scanner, Random random, int[][] matrix, int max, int min) {//Функція яка заповнює матрицю
         System.out.println("Оберіть спосіб заповнення: 1 - вручну, 2 - випадковими числами");
         int choice = scanner.nextInt();//вибір користувача
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
                 //              якщо обрав 1   Отримуем значення, інакше отримуем рандомне значення
-                matrix[i][j] = (choice == 1) ? scanner.nextInt() : random.nextInt(101) - 50;
+                matrix[i][j] = (choice == 1) ? scanner.nextInt() : random.nextInt(max-min+1)+min;
             }
         }
     }
@@ -57,7 +58,7 @@ public class Main {
             for (int num : row) {
                 if (num < min) min = num;//пошук мінімального
                 if (num > max) max = num;//пошук максимального
-                sum += num;//сумма всих чисел
+                sum += num;//сумма всих чисел 2
             }
         }
 
