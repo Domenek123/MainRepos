@@ -1,73 +1,68 @@
 package org.example;
-import java.util.Random;
-import java.util.Scanner;
+
+import java.util.Random;//Імпорт рандомайзера
+import java.util.Scanner;//Імпорт сканера
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        // Вводимо розмір матриці
-        System.out.print("Введіть кількість строчок (не більше 20): ");
-        int rows = scanner.nextInt();
-        System.out.print("Введіть кількість стовбців (не більше 20): ");
-        int cols = scanner.nextInt();
+        int rows = getSize(scanner, "строчок");// отримуем кількість строчок
+        int cols = getSize(scanner, "стовбців");// отримуєм кількість стовпців
 
-        if (rows > 20 || cols > 20 || rows <= 0 || cols <= 0) {
+        if (rows <= 0 || rows > 20 || cols <= 0 || cols > 20) {//Перевіряемо чи матриція не більше 20 символів
             System.out.println("Помилка! Неправильний розмір матриці!");
             return;
         }
 
-        // Обираем спосіб заповнення
+        int[][] matrix = new int[rows][cols];//Створюєм матрицю розміром Стр. * Стовп,
+        fillMatrix(scanner, random, matrix);//Заповнюєм матрицю
+        printMatrix(matrix);//Виводим матрицю
+        printStats(matrix);//виводим розраховані Макс. Мін. та Сер. значеня
+    }
+
+    private static int getSize(Scanner scanner, String type) {//Функція яка отримуе данні та повертае їх
+        System.out.print("Введіть кількість " + type + " (не більше 20): ");// функція запрошуе від користувача значення
+        return scanner.nextInt();// функція отримуе та повертае значення від користувача
+    }
+
+    private static void fillMatrix(Scanner scanner, Random random, int[][] matrix) {//Функція яка заповнює матрицю
         System.out.println("Оберіть спосіб заповнення: 1 - вручну, 2 - випадковими числами");
-        int choice = scanner.nextInt();
+        int choice = scanner.nextInt();//вибір користувача
 
-        int[][] matrix = new int[rows][cols];
-
-        if (choice == 1) {
-            System.out.println("Введіть елементи матриці:");
-            for (int i = 0; i < rows; i++) {
-                for (int j = 0; j < cols; j++) {
-                    matrix[i][j] = scanner.nextInt();
-                }
-            }
-        } else {
-            for (int i = 0; i < rows; i++) {
-                for (int j = 0; j < cols; j++) {
-                    matrix[i][j] = random.nextInt(101) - 50; // від -50 до 50
-                }
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                //              якщо обрав 1   Отримуем значення, інакше отримуем рандомне значення
+                matrix[i][j] = (choice == 1) ? scanner.nextInt() : random.nextInt(101) - 50;
             }
         }
+    }
 
-        // Вивід матриці
+    private static void printMatrix(int[][] matrix) {//Функція яка виводить матрицю
         System.out.println("Матриця:");
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                System.out.print(matrix[i][j] + "\t");
+        for (int[] row : matrix) {//Для кожної строки
+            for (int num : row) {// для кождного чисал в строці
+                System.out.print(num + "\t");//Вивести число
             }
-            System.out.println();
+            System.out.println();//почати нову строчку
         }
+    }
 
-        // Знаходемо мінімум, максимум і середне
+    private static void printStats(int[][] matrix) {//Функція яка знаходить та виводе макс. мін. та сер. значення
         int min = matrix[0][0], max = matrix[0][0], sum = 0;
-        int count = rows * cols;
+        int count = matrix.length * matrix[0].length;
 
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                int num = matrix[i][j];
-                if (num < min) min = num;
-                if (num > max) max = num;
-                sum += num;
+        for (int[] row : matrix) {
+            for (int num : row) {
+                if (num < min) min = num;//пошук мінімального
+                if (num > max) max = num;//пошук максимального
+                sum += num;//сумма всих чисел
             }
         }
 
-        double avg = (double) sum / count;
-
-        // Выводим результаты
-        System.out.println("Мінімальний елемент: " + min);
-        System.out.println("Максимальный елемент: " + max);
-        System.out.println("Середне арифметичне: " + avg);
-
-        scanner.close();
+        System.out.println("Мінімальний елемент: " + min);//Вивід мінімального
+        System.out.println("Максимальний елемент: " + max);//вивиід максимального
+        System.out.println("Середнє арифметичне: " + (double) sum / count);//розрахунок та вивід середнього арифметичного
     }
 }
