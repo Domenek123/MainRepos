@@ -1,5 +1,3 @@
-import controller.JsonManager;
-import controller.Run;
 import model.University;
 import org.junit.jupiter.api.Test;
 

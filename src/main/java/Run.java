@@ -1,4 +1,4 @@
-package controller;
+import controller.*;
 import model.*;
 
 public class Run {
