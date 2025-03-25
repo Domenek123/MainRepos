@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="411464c7-63e0-4175-821e-8fac71d383b4" name="Changes" comment="123" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="LR_3" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Domenek123&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Domenek123/MainRepos.git&quot;,
+    &quot;accountId&quot;: &quot;65eb804f-e3cc-4f2d-8ebe-400a92a6b63a&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2sj2DrWqAtP3riFQxxOofqJuYqG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MatrixOperations.executor": "Run",
+    "Application.Run.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "LR__5",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/joker/Downloads/Java/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/joker/Downloads/Java/LR_0/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver",
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joker\Downloads\Java\LR_5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joker\Downloads\Java\LR_5\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LR_0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="LR_0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MatrixOperations" />
+      <module name="LR_0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Run" />
+      <module name="LR_0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MatrixOperations" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\joker\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="411464c7-63e0-4175-821e-8fac71d383b4" name="Changes" comment="" />
+      <created>1738954548061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738954548061</updated>
+      <workItem from="1738954549123" duration="1336000" />
+      <workItem from="1738956143136" duration="521000" />
+      <workItem from="1738956675079" duration="29000" />
+      <workItem from="1738956958393" duration="5804000" />
+      <workItem from="1738963243483" duration="126000" />
+      <workItem from="1738966868685" duration="984000" />
+      <workItem from="1739902816803" duration="1216000" />
+      <workItem from="1739914151485" duration="402000" />
+      <workItem from="1739992958761" duration="142000" />
+      <workItem from="1741637631409" duration="1246000" />
+      <workItem from="1741641754604" duration="47000" />
+      <workItem from="1741642147607" duration="144000" />
+      <workItem from="1741642560509" duration="1089000" />
+      <workItem from="1741708428663" duration="39000" />
+      <workItem from="1742245406341" duration="465000" />
+      <workItem from="1742245891595" duration="369000" />
+      <workItem from="1742246779846" duration="84000" />
+    </task>
+    <task id="LOCAL-00001" summary="123">
+      <option name="closed" value="true" />
+      <created>1738957158740</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738957158740</updated>
+    </task>
+    <task id="LOCAL-00002" summary="123">
+      <option name="closed" value="true" />
+      <created>1738958414196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738958414196</updated>
+    </task>
+    <task id="LOCAL-00003" summary="123">
+      <option name="closed" value="true" />
+      <created>1738961217754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738961217754</updated>
+    </task>
+    <task id="LOCAL-00004" summary="123">
+      <option name="closed" value="true" />
+      <created>1738962575383</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738962575383</updated>
+    </task>
+    <task id="LOCAL-00005" summary="123">
+      <option name="closed" value="true" />
+      <created>1738967807487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738967807487</updated>
+    </task>
+    <task id="LOCAL-00006" summary="123">
+      <option name="closed" value="true" />
+      <created>1741642639281</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741642639281</updated>
+    </task>
+    <task id="LOCAL-00007" summary="123">
+      <option name="closed" value="true" />
+      <created>1741642762097</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741642762097</updated>
+    </task>
+    <task id="LOCAL-00008" summary="123">
+      <option name="closed" value="true" />
+      <created>1741708449693</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741708449693</updated>
+    </task>
+    <task id="LOCAL-00009" summary="123">
+      <option name="closed" value="true" />
+      <created>1742249887883</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742249887883</updated>
+    </task>
+    <task id="LOCAL-00010" summary="123">
+      <option name="closed" value="true" />
+      <created>1742864716549</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742864716549</updated>
+    </task>
+    <task id="LOCAL-00011" summary="123">
+      <option name="closed" value="true" />
+      <created>1742866178247</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742866178247</updated>
+    </task>
+    <task id="LOCAL-00012" summary="123">
+      <option name="closed" value="true" />
+      <created>1742866386263</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1742866386263</updated>
+    </task>
+    <task id="LOCAL-00013" summary="123">
+      <option name="closed" value="true" />
+      <created>1742866970614</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1742866970614</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
+  </component>
+</project>
