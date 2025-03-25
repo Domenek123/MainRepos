@@ -6,7 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         StudentDAO studentDAO = new StudentDAO();
 
-        System.out.println("Введіть номер місяця (1-12), щоб знайти студентів, які народилися в цьому місяці:");
+        System.out.println("Введіть номер місяця (від 1 до 12), щоб знайти студентів, які народилися в цьому місяці:");
         int month = scanner.nextInt();
 
         if (month < 1 || month > 12) {
